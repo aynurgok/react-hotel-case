@@ -11,7 +11,6 @@ function HotelsList() {
                 <Hotel key={hotelsItem.id} hotelsItem= {hotelsItem} />
             ))
         }
-      
     </div>
   )
 }

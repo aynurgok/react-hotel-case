@@ -13,7 +13,19 @@
     inset 8px 8px 15px rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     padding: 10px 20px;
+    margin-top:20px;
+    transition: all 0.5s;
 }
+.hotel-item:hover {
+     border: 1px solid black;
+    transform: scale(1.05);
+}
+.hotel-item:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+
 .hotel-item .hotel-item_img img {
     max-width: 100%;
     height: auto;
@@ -26,22 +38,23 @@
     gap:20px;
 }
 .hotel-item_info .title {
-    min-width: 180px;
+    min-width: 150px;
     font-size: 23px;
     font-weight: 600;
 }
 .hotel-item_info .point {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     color:rgba(13, 228, 103, 0.959);
+    margin-bottom: 5px;
 }
 .buttons {
     display: flex;
     gap:20px;
-   
 }
 
 .buttons button {
-    padding:0 5px;
+    padding:10px 20px;
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
