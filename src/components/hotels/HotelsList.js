@@ -5,7 +5,7 @@ import './style.css'
 
 function HotelsList() {
   return (
-    <div className='hotels-container'>
+    <div>
         {
             HotelsData.map(hotelsItem => (
                 <Hotel key={hotelsItem.id} hotelsItem= {hotelsItem} />

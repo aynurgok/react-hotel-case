@@ -1,9 +1,9 @@
 .hotels-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 2fr));
-    margin-top:30px;
+    margin-top:50px;
     grid-gap: 20px;
-    padding:40px;
+    padding:30px;
 }
 .hotel-item {
     display: flex;
@@ -17,14 +17,12 @@
     transition: all 0.5s;
 }
 .hotel-item:hover {
-     border: 1px solid black;
+    border: 1px solid black;
     transform: scale(1.05);
 }
 .hotel-item:active {
     transform: scale(0.95) rotateZ(1.7deg);
 }
-
-
 
 .hotel-item .hotel-item_img img {
     max-width: 100%;
