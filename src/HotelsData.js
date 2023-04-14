@@ -7,6 +7,12 @@ const HotelsData = [
     },
     {
         id:2,
+        title:"Rixos Bodrum Otel",
+        img:"https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        score:8.3
+    },
+    {
+        id:2,
         title:"Duja Bodrum Otel",
         img:"https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         score:7.4
